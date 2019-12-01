@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main-header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(../patterns/header-img.jpg), url(../patterns/header-img-two.jpg);
+  background-position: right, left;
+  background-repeat: no-repeat, no-repeat;
+  height: 80vh;
+}
